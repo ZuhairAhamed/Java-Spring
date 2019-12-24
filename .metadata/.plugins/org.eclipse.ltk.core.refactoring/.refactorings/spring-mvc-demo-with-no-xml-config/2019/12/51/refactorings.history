@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;spring-mvc-demo-with-no-xml-config&apos;&#x0D;&#x0A;- Original project: &apos;spring-mvc-demo-with-no-xml-config&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     spring-mvc-demo-servlet.xml&#x0D;&#x0A;     web.xml" description="Delete elements" element1="WebContent/WEB-INF/spring-mvc-demo-servlet.xml" element2="WebContent/WEB-INF/web.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1576815077720" subPackages="false" version="1.0"/>
+</session>

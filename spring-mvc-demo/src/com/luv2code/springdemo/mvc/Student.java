@@ -1,12 +1,30 @@
 package com.luv2code.springdemo.mvc;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
+import org.springframework.lang.NonNull;
+
 public class Student {
 	
 	private String firstName;
 	
+	@NotNull(message = "is required")
+	@Size(min = 1, message = "is required")
 	private String lastName;
 	
+	@NotNull(message = "is required")
+	@Min(value = 0,message = "must be greater than or equal to zero")
+	@Max(value = 10,message = "must be less than or equal to ten")
+	private Integer freePasses;
+	
 	private String country;
+	
+	@Pattern(regexp = "^[a-zA-Z0-9]{5}",message = "only 5 characters/digits")
+	private String postalCode;
 	
 	private String programmingLanguage;
 	
@@ -16,8 +34,29 @@ public class Student {
 	public Student() {
 		// TODO Auto-generated constructor stub
 	}
-
 	
+	public String getPostalCode() {
+		return postalCode;
+	}
+
+
+
+	public void setPostalCode(String postalCode) {
+		this.postalCode = postalCode;
+	}
+
+
+
+	public Integer getFreePasses() {
+		return freePasses;
+	}
+
+
+	public void setFreePasses(Integer freePasses) {
+		this.freePasses = freePasses;
+	}
+
+
 	public String[] getOs() {
 		return os;
 	}
