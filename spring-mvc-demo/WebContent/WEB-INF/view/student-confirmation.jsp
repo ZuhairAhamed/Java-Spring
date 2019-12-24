@@ -15,6 +15,8 @@
 	<br>
 	Postal Code: ${student.postalCode }
 	<br>
+	Course Code: ${student.courseCode}
+	<br>
 	Free Passes: ${student.freePasses}
 	<br>
 	Favourite Language is : ${student.programmingLanguage }
