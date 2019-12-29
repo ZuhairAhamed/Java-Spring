@@ -41,6 +41,11 @@
 	
 	<br><br>
 	
+	Course Code:<form:input path="courseCode"/>
+	<form:errors path="courseCode" cssClass="error" />
+	
+	<br><br>
+	
 	Favourite Language:
 	Java<form:radiobutton path="programmingLanguage" value="java"/>
 	C#<form:radiobutton path="programmingLanguage" value="c#"/>
