@@ -20,7 +20,7 @@ public class CreateDemo {
 		Session session = factory.getCurrentSession();
 		
 		try {
-			Instructor tempInstructor = new Instructor("zuhair","ahemd","zuhair@gmail.com");
+			Instructor tempInstructor = new Instructor("thasneem","ahemd","thasnemm@gmail.com");
 			InstructorDetail tempInstructorDetail = new InstructorDetail("link","coding");
 			
 			tempInstructor.setInstrctorDetail(tempInstructorDetail);
