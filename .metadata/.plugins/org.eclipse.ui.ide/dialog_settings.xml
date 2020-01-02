@@ -11,6 +11,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\eclipse-workspace\spring-demo-annotations"/>
 			<item value="D:\eclipse-workspace\spring-mvc-demo-with-no-xml-config"/>
 			<item value="D:\eclipse-workspace\spring-demo-annotations-with-noxml"/>
 		</list>

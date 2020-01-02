@@ -1,0 +1,28 @@
+package com.luv2code.aopdemo;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.luv2code.aopdemo.dao.AccountDAO;
+import com.luv2code.aopdemo.dao.DemoConfig;
+import com.luv2code.aopdemo.dao.MembershipDAO;
+
+public class MainDemoApp {
+
+	public static void main(String[] args) {
+		
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
+		
+	    AccountDAO theAccountDAO = context.getBean("accountDAO",AccountDAO.class);
+	    
+	    Account myAccount = new Account();
+	    theAccountDAO.addAccount(myAccount);
+	    
+	    MembershipDAO theMembershipDAO = context.getBean("membershipDAO",MembershipDAO.class);
+	    
+	    theMembershipDAO.addAccount();
+	    
+	    context.close();
+
+	}
+
+}
