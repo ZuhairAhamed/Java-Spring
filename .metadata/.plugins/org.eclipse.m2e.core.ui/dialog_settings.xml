@@ -73,6 +73,13 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\eclipse-workspace\thymeleafdemo"/>
+			<item value="D:\eclipse-workspace\cruddemo"/>
+			<item value="D:\eclipse-workspace\myApp"/>
+			<item value="D:\eclipse-workspace\Spring Boot\mycoolapp"/>
+			<item value="D:\eclipse-workspace\spring-crm-rest-demo"/>
+			<item value="D:\eclipse-workspace\spring-rest-demo"/>
+			<item value="D:\eclipse-workspace\jackson-databinding-json-demo"/>
 			<item value="D:\eclipse-workspace\spring-security-demo-starter\spring-security-demo-01-base-app"/>
 		</list>
 		<list key="projectNameTemplate">
